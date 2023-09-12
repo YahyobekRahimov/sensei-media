@@ -1,0 +1,146 @@
+/* Fonts */
+
+/* manrope-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/manrope-v14-latin-regular.woff2") format("woff2");
+}
+/* manrope-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/manrope-v14-latin-500.woff2") format("woff2");
+}
+/* manrope-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/manrope-v14-latin-600.woff2") format("woff2");
+}
+/* manrope-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/manrope-v14-latin-700.woff2") format("woff2");
+}
+/* manrope-800 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/manrope-v14-latin-800.woff2") format("woff2");
+}
+
+/* manrope-regular - cyrillic */
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/manrope-v14-cyrillic-regular.woff2") format("woff2");
+}
+/* manrope-500 - cyrillic */
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/manrope-v14-cyrillic-500.woff2") format("woff2");
+}
+/* manrope-600 - cyrillic */
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/manrope-v14-cyrillic-600.woff2") format("woff2");
+}
+/* manrope-700 - cyrillic */
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/manrope-v14-cyrillic-700.woff2") format("woff2");
+}
+/* manrope-800 - cyrillic */
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/manrope-v14-cyrillic-800.woff2") format("woff2");
+}
+/* General styles */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 113px;
+  padding-right: 113px;
+}
+
+:root {
+  --black: #333;
+  --common-gradient: linear-gradient(115deg, #f32c6d 10.12%, #cb1d95 100.01%);
+  --common-gradient-reverse: linear-gradient(
+    90deg,
+    rgba(203, 29, 149, 1) 10%,
+    rgba(243, 44, 76, 1) 100%
+  );
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  color: #333;
+}
+
+/* Repeated styles */
+
+h1 {
+  color: var(--black);
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 65px;
+}
+
+h2 {
+  color: #333;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 126.316% */
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
